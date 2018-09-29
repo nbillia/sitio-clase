@@ -25,5 +25,60 @@ body{
     margin:auto;
     max-width: 1000px;
    /* usamos la variable */ background-color: var(--blanco);
+   border-radius: 10px;
     
+}
+
+.cabecera{
+    margin:auto;
+    max-width: 1000px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.cabecera h1{
+ color: var(--naranja)
+}
+
+.botonera{
+    margin:auto;
+    max-width: 1000px;
+    display:flex;
+    list-style: none;
+    background-color: var(--naranja);
+    padding:20px 40px;
+    border-radius: 2px;
+    margin-bottom:10px;
+}
+
+.nav-lista-item{
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 1px solid yellow;
+   
+}
+
+.nav-lista-item a{
+    color:var(--blanco);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-lista-item a:hover{
+    text-decoration: underline;
+}
+
+.botonera form{
+    padding-left:150px;
+    color:white;
+    float: right;
+}
+
+.slider{
+    margin-bottom:50px;
+    text-align: center;
 }
